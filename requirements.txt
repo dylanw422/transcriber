@@ -1,0 +1,15 @@
+# Core dependencies
+requests
+beautifulsoup4
+yt-dlp
+tqdm
+
+# Audio/video processing
+ffmpeg-python
+pydub
+
+# Transcription
+faster-whisper
+torch
+torchvision
+torchaudio
