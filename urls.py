@@ -53,6 +53,8 @@ def get_rumble_videos(profile_url, max_pages=5, save_html=False):
                 # Skip URLs that contain 'ep.'
                 if "ep." in video_url.lower():
                     continue
+                if "america-first" in video_url.lower():
+                    continue
                 videos.append(video_url)
 
         time.sleep(2)
